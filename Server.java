@@ -58,7 +58,7 @@ public class Server {
             case "DIV":
                 if(op2 == 0){ // 0으로 나누는 경우 예외 처리
                     System.out.println("Wrong Input : Division by zero");
-                    return "Wrong Operation : Division by zero";
+                    return "Wrong Input : Division by zero";
                 }
                 res = Integer.toString(op1 / op2);
                 System.out.println("DIV " + op1 + " " + op2 + " = " + res);
